@@ -7,7 +7,7 @@ int main(){
     for ( i = 0; str[i]!='\0'; i++)
     {
         printf("total char=%c\n",str[i]);
-        count++;
+       count++;
     }
     printf("total no=%d\n",count);
     printf("\n");
