@@ -4,17 +4,17 @@ int main(){
     float rate;
     float time;
     
-    printf("enter principal");
+    printf("enter principal = ");
     scanf("%f", & principal);
 
-    printf("enter rate");
+    printf("enter rate = ");
     scanf("%f", & rate);
 
-    printf("enter time");
+    printf("enter time = ");
     scanf("%f", & time);
 
     //simple interest=p*r*t
-     printf("find the simple interest%f",(principal*rate*time)/100);
+     printf("find the simple interest = %f",(principal*rate*time)/100);
 
 
     return 0;
