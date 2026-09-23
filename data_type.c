@@ -16,6 +16,5 @@ int main(){
     printf("find the data type%f" , a/b-c);
 
 
-    
-    return 0;
+     return 0;
 }
