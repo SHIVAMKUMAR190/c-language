@@ -1,7 +1,8 @@
 // family
 
 #include <stdio.h>
-int main(){
+int main()
+{
     printf("navin ray\n");
 
     printf("seema devi\n");

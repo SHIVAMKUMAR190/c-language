@@ -1,5 +1,5 @@
 #include <stdio.h>
-//area 0f triangle
+// area 0f triangle
 int main()
 {
     float base;
@@ -7,14 +7,12 @@ int main()
     float area;
 
     printf("base of triangle:");
-    scanf("%f",&base);
+    scanf("%f", &base);
 
     printf("height of triangle: ");
-    scanf("%f",&height);
+    scanf("%f", &height);
 
-
-
-    area = 0.5* base* height;
+    area = 0.5 * base * height;
 
     printf("The area of the triangle is: %f\n", area);
 

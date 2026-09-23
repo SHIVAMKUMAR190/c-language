@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
- void star(int n);
- void star(int n){
-   for (int i = 1; i <= n; i++)
+void star(int n);
+void star(int n)
+{
+    for (int i = 1; i <= n; i++)
     {
-        for (int j= 1; j<=i; j++)
+        for (int j = 1; j <= i; j++)
         {
             printf("*");
-        } 
-printf("\n");
+        }
+        printf("\n");
+    }
 }
-}
-int main(){
-    int n=5;
+int main()
+{
+    int n = 5;
     star(n);
     return 0;
-
 }

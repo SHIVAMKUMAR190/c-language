@@ -1,24 +1,20 @@
-#include<stdio.h>
-int main(){
-    int i=0;
+#include <stdio.h>
+int main()
+{
+    int i = 0;
     int n;
-   int sum=sum+n*i;
+    int sum = sum + n * i;
 
     printf("enter no=");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    for (i = 1; i<= 10; i++)
-    
+    for (i = 1; i <= 10; i++)
+
     {
-        printf("table:%d\n",n*i);
-        sum=sum+n*i;
-        
+        printf("table:%d\n", n * i);
+        sum = sum + n * i;
     }
-    printf("total no%d\n",sum);
-
-    
-
+    printf("total no%d\n", sum);
 
     return 0;
-
 }

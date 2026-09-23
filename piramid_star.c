@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 int main()
 {
-    int n, i, j;
+    int n;
 
-    printf("enter no: ");
+    printf("enter no:");
     scanf("%d", &n);
 
-    for (i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
-        for (j = 0; j < n; j++)
+        for (int j = 0; j <= 9; j++)
         {
-
-            if (i <= j)
+            if (j >= 5 - i && j <= 3 + i)
             {
+
                 printf("*");
             }
             else
@@ -23,6 +22,5 @@ int main()
         }
         printf("\n");
     }
-
     return 0;
 }

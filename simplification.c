@@ -1,30 +1,29 @@
-#include<stdio.h>
-int main() 
+#include <stdio.h>
+int main()
 {
     float a;
     float b;
     float c;
     float d;
     float e;
-    
+
     printf("first number;");
-    scanf("%f",&a);
+    scanf("%f", &a);
 
     printf("second number;");
-    scanf("%f",&b);
+    scanf("%f", &b);
 
     printf("third number;");
-    scanf("%f",&c);
+    scanf("%f", &c);
 
     printf("fourth number;");
-    scanf("%f",&d);
+    scanf("%f", &d);
 
     printf("fifth number;");
-    scanf("%f",&e);
+    scanf("%f", &e);
 
     float simplification = a * b - c * d / e;
-    printf("simplification of five number:%f",simplification);
-    
-    return 0;
+    printf("simplification of five number:%f", simplification);
 
+    return 0;
 }

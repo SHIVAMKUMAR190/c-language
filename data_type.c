@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     float a;
     float b;
     float c;
@@ -8,13 +9,12 @@ int main(){
     scanf("%f", &a);
 
     printf("enter b");
-    scanf("%f",& b);
+    scanf("%f", &b);
 
     printf("enter c");
 
-    scanf("%f",& c);
-    printf("find the data type%f" , a/b-c);
+    scanf("%f", &c);
+    printf("find the data type%f", a / b - c);
 
-
-     return 0;
+    return 0;
 }

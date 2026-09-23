@@ -1,13 +1,11 @@
-#include<stdio.h>
-int main(){
-    float a=3.0;
-    int b=8;
-    int c=2;
+#include <stdio.h>
+int main()
+{
+    float a = 3.0;
+    int b = 8;
+    int c = 2;
 
-
-    printf("find the data type%f" , a/b-c);
-
+    printf("find the data type%f", a / b - c);
 
     return 0;
-
 }
